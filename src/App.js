@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import List from "./components/list";
+import style from './style.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="logo">
+    <img src='https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-hub-ragnarok-twitter-banner-en-09sept21?$1200px$'></img>
     </div>
+    
+    <div className="todo-list">
+        <List />
+    </div>
+
+    </>
   );
 }
 
